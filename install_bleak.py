@@ -9,8 +9,8 @@ user_config = load_user_config()
 logger = get_logger()
 
 if user_config.get('install_newer_bleak'):
-    ver = '0.20.2'
-    args = ['install', 'bleak==0.20.2']
+    ver = '0.22.2'
+    args = ['install', 'bleak==0.22.2']
 else:
     ver = '0.13.1a1'
     args = ['install', 'git+https://github.com/jpeters-ml/bleak@feature/windowsPairing']
